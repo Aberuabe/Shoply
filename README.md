@@ -1,30 +1,51 @@
-# E-commerce demo site
+# Projet Shoply : Site E-commerce
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+Bienvenue sur le dépôt du projet Shoply, une application de e-commerce moderne construite avec Next.js et TypeScript.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/aberuabes-projects/v0-e-commerce-demo-site)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/t1ZPRkV3Xyg)
+## Aperçu
 
-## Overview
+Shoply est une démonstration de site de vente en ligne qui inclut les fonctionnalités essentielles d'une plateforme e-commerce, telles que :
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+-   Catalogue de produits
+-   Pages de détail pour chaque produit
+-   Panier d'achats
+-   Liste de favoris
+-   Comparateur de produits
 
-## Deployment
+## Technologies utilisées
 
-Your project is live at:
+-   **Framework** : [Next.js](https://nextjs.org/)
+-   **Langage** : [TypeScript](https://www.typescriptlang.org/)
+-   **Style** : [Tailwind CSS](https://tailwindcss.com/)
+-   **Composants UI** : [shadcn/ui](https://ui.shadcn.com/)
+-   **Gestionnaire de paquets** : [pnpm](https://pnpm.io/)
 
-**[https://vercel.com/aberuabes-projects/v0-e-commerce-demo-site](https://vercel.com/aberuabes-projects/v0-e-commerce-demo-site)**
+## Démarrage rapide
 
-## Build your app
+Pour lancer ce projet en local, suivez ces étapes :
 
-Continue building your app on:
+1.  **Clonez le dépôt :**
+    ```bash
+    git clone https://github.com/Aberuabe/Shoply.git
+    cd Shoply
+    ```
 
-**[https://v0.app/chat/projects/t1ZPRkV3Xyg](https://v0.app/chat/projects/t1ZPRkV3Xyg)**
+2.  **Installez les dépendances :**
+    ```bash
+    pnpm install
+    ```
 
-## How It Works
+3.  **Lancez le serveur de développement :**
+    ```bash
+    pnpm dev
+    ```
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+4.  Ouvrez votre navigateur à l'adresse [http://localhost:3000](http://localhost:3000) pour voir l'application.
+
+## Déploiement
+
+Ce projet est prêt à être déployé sur n'importe quelle plateforme supportant Next.js, comme Vercel, Netlify, ou Render.
+
+Pour le déploiement, les commandes suivantes sont utilisées :
+-   **Commande de build** : `pnpm build`
+-   **Commande de démarrage** : `pnpm start`
